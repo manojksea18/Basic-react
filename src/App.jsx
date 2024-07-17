@@ -1,6 +1,6 @@
-import Car from "./Car";
-import Garage from "./React-list";
+// import Car from "./Car";
 import Contactform from "./Contactform";
+// import Garage from "./React-list";
 
 const App = () => {
   return (
