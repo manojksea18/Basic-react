@@ -6,7 +6,7 @@ import surveyForm from "./survey";
 const App = () => {
   return (
     <>
-      <surveyForm />
+      <Contactform />
     </>
   );
 };
