@@ -1,11 +1,13 @@
 // import Contactform from "./Contactform";
 // import Survey from "./Survey";
-import StateHook from "./StateHook";
+// import StateHook from "./StateHook";
+import StateHookArray from "./StateHookArray";
 const App = () => {
   return (
     <>
       {/* <Survey /> */}
-      <StateHook />
+      {/* <StateHook /> */}
+      <StateHookArray />
     </>
   );
 };
