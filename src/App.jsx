@@ -1,12 +1,11 @@
-// import Car from "./Car";
-import Contactform from "./Contactform";
-// import Garage from "./React-list";
-import surveyForm from "./survey";
-
+// import Contactform from "./Contactform";
+// import Survey from "./Survey";
+import StateHook from "./StateHook";
 const App = () => {
   return (
     <>
-      <Contactform />
+      {/* <Survey /> */}
+      <StateHook />
     </>
   );
 };

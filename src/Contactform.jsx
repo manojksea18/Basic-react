@@ -49,11 +49,13 @@ const ContactForm = () => {
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="name">
-            <Button as="input" type="reset" value="Reset " />{" "}
+            <Button
+              as="input"
+              type="reset"
+              value="Reset "
+              onClick={resetForm}
+            />{" "}
           </Form.Group>
-          <div>
-            <button onClick={resetForm}> Reset</button>
-          </div>
         </Form>
         <div id="thankYou"></div>
       </div>
